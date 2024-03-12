@@ -1,0 +1,61 @@
+Won't compile because of line (1), constructor can't be private
+B. 10 50   
+C. 50
+D. Won't compile because of line (5), constructor can't be static
+Answer & Solution Discuss in Board Save for Later
+2.
+The following code contains one compilation error, find it?
+public class Test {
+	Test() {    }  // line 1
+	static void Test() {  this(); } // line 2  
+	public static void main(String[] args) { // line 3
+		Test(); // line 4
+	}
+}
+A. At line 1, constructor Tester must be marked public like its class
+B. At line 2, constructor call
+C. At line 3, compilation error, ambiguity problem, compiler can't determine whether a constructor
+D. At line 4
+Answer & Solution Discuss in Board Save for Later
+3.
+What will be the return type of a method that not returns any value?
+A. void
+B. int
+C. double
+D. None of the above
+Answer & Solution Discuss in Board Save for Later
+4.
+Which of the following options is the best for generating random integer 0 or 1?
+A. (int)Math.random()
+B. (int)Math.random() + 1
+C. (int)(Math.random() + 0.5)
+D. (int)(Math.random() + 0.2)
+Answer & Solution Discuss in Board Save for Later
+5.
+What is Math.floor(3.6)?
+A. 3.0
+B. 3
+C. 4
+D. 4.0
+Answer & Solution Discuss in Board Save for Later
+6.
+In which area of memory, the system stores parameters and local variables whenever a method is invoked?
+A. Heap
+B. Storage Area
+C. Stack
+D. Array
+Answer & Solution Discuss in Board Save for Later
+7.
+What is the expected output?
+public class Profile {
+	private Profile(int w) { // line 1
+		System.out.print(w);
+	}
+	public final Profile() { // line 5
+		System.out.print(10);
+	}
+	public static void main(String args[]) {
+		Profile obj = new Profile(50);
+	}
+}
+

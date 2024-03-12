@@ -1,0 +1,46 @@
+<form>  
+        <label>Enter your Email-address</label><br>  
+        <input type="text" name="uname" autofocus><br><br>  
+         <label>Enter your password</label><br>  
+        <input type="password" name="pass"><br><br>  
+        <input type="submit" value="login">  
+   </form>      
+
+
+<form>  
+        <label>Enter your name</label><br>  
+        <input type="text" name="uname" placeholder="Your name"><br><br>  
+            <label>Enter your Email address</label><br>  
+        <input type="email" name="email" placeholder="example@gmail.com"><br><br>  
+            <label>Enter your password</label><br>  
+        <input type="password" name="pass" placeholder="your password"><br><br>  
+        <input type="submit" value="login">  
+    </form>  
+
+<input type="text" name="uname" disabled><br><br>  
+
+
+<label>Account holder name</label><br>  
+        <input type="text" name="uname" size="40" required><br><br>  
+        <label>Account number</label><br>  
+        <input type="text" name="an" size="30" required><br><br>  
+        <label>CVV</label><br>  
+        <input type="text" name="cvv"  size="1" required><br><br>  
+Test it Now
+
+
+<form>  
+        <label>Enter your Email-address</label><br>  
+        <input type="text" name="uname" required><br><br>  
+         <label>Enter your password</label><br>  
+        <input type="password" name="pass"><br><br>  
+        <input type="submit" value="login">  
+   </form>  
+
+
+1) value default value
+2) autofocus
+3) placeholder=""
+4) required
+5)disabled
+6)maxlength

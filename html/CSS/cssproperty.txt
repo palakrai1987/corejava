@@ -1,0 +1,36 @@
+background-color:red
+background-image: url("paper1.gif");  
+background-repeat: no-repeat;  
+background-attachment:
+background-position:
+background: white url('good-morning.jpg');  
+background-repeat: no-repeat;  
+background-attachment: fixed;  
+background-position: center;
+
+border-style
+border-color
+border-width
+border-radius
+
+a:hover   
+      {   
+         color: green;   
+      }              
+      a:active  
+      {  
+      color: cyan;  
+      }  
+
+
+p:hover, h1:hover, a:hover{  
+background-color: yellow;  
+}  
+</style>  
+</head>  
+<body>  
+<h1>Hello World</h1>  
+<p>Welcome to the javaTpoint.</p>  
+<a href='https://www.javatpoint.com/css-grid'>CSS Grid</a>  
+</body>  
+</html>  

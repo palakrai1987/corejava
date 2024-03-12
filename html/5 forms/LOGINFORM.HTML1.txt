@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>registration form</title>
+</head>
+<body>
+<form action="demo.html" method="post" >
+<h1>To Register enter the details</h1>
+
+Enter first name:
+<input type="text" name="user_name">
+<br><br>
+Enter last name:
+<input type="text" name="pass">
+<br>
+Enter address:<br>
+<textarea rows="5" cols="50" name="description"></textarea>
+
+<br>
+Enter the course
+<input type="checkbox" > HTML
+<input type="checkbox" name="physics" value="on"> .net
+<input type="checkbox" name="maths" value="on"> DTP
+<input type="checkbox" name="physics" value="on"> C
+<input type="checkbox" name="maths" value="on"> c++
+<input type="checkbox" name="physics" value="on"> JAVA
+
+<br>
+Enter gender
+<input type="radio" name="subject" > Male
+<input type="radio" name="subject" > Female
+<br>
+<br>
+Enter city:
+<select>
+<option>Pune</option>
+<option value="P">Mumbai</option>
+<option value="M" Nashik</option>
+<option value="P">Bangalore</option>
+<option value="M" selected>Hyderabad</option>
+<option value="P">Chandigarh</option>
+<option value="M" selected>Aurangabad</option>
+<option value="P">Bhopal</option>
+</select>
+
+<input type="file" name="fileupload" accept="image/*" />
+
+<input type= "submit" value="login">
+</form>
+</body>
+</htm
