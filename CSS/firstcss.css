@@ -1,0 +1,50 @@
+         p
+        {
+          
+           font-size: 20px;
+        }
+        .l
+        {
+            background-color: blue;
+        }
+        .A
+        {
+            background-color: brown;
+            font-size: 20px;
+            height: 100px;
+            width: 100px;
+
+        }
+        .B
+        {
+            background-color: rgb(144, 122, 133);
+            font-size: 20px;
+            height: 100px;
+            width: 100px;
+
+        }
+        .C
+        {
+            background-color: blueviolet;
+            font-size: 20px;
+            height: 100px;
+            width: 100px;
+
+        }
+
+        .D
+        {
+            background-color: rgb(149, 200, 39);
+            font-size: 20px;
+            height: 100px;
+            width: 100px;
+
+        }
+
+        div
+        {
+            align-items: center;
+            float :left;
+            margin-right: 5px;
+        }
+     
