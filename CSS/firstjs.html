@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for = "no1">enter first no</label>
+    <input type = "number" name = "no1" id = "no1"/>
+    <label for = "no2">enter second no</label>
+    <input type = "number" name = "no2" id = "no2"/>
+    <select id = "ope">
+         <option value = "+">+</option>
+         <option value = "-">-</option>
+         <option value = "*">*</option>
+         <option value = "/">/</option>
+    </select>
+    <label for = "result">Result</label>
+    <input type = "text" name = "result" id = "result" />
+    <button type = "button" onclick="calc()">calculate</button>
+    <script>
+      function calc()
+      {
+        var x = document.getElementById("no1").value;
+        var y = document.getElementById("no2").value;
+        var op = document.getElementById("ope").value;
+        alert(op);
+        //alert(x+y);
+        if(op == "+")
+        {
+            var result = parseInt(x)+parseInt(y);
+           
+        }
+        if(op == "-")
+        {
+          var result = parseInt(x)-parseInt(y);
+        }
+        if(op == "*")
+        {
+          var result = parseInt(x) * parseInt(y);
+        }
+        if(op == "/")
+        {
+          var result = parseInt(x)/parseInt(y);
+        }
+        
+
+        document.getElementById("result").value = result;
+
+
+
+
+      }  
+
+      
+
+
+
+    </script>
+
+
+
+
+
+</body>
+</html>
