@@ -7,8 +7,8 @@ public class Filereaderexample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		  try{   
-			  File file = new File("javaFile1234.txt");  
-			 file.createNewFile();
+			  File file = new File("testfile.txt");  
+			 //file.createNewFile();
 			  
 			  
 			  
