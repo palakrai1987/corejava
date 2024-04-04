@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <button onclick="cube(5)"> submit </button>
+     <button onclick="rec()">recursion</button>
+     <button onclick="x()">fact</button>
+     <button onclick="a()">hello</button>
+    <script>
+        var count =0;
+        function cube(i)
+        {
+                var x = i*i*i;
+                document.write(x);
+        }
+        function rec()
+        {
+            count ++;
+            if(count <=5)
+            {
+                document.write("hello  <br/>");
+                rec();
+            }
+        }
+        var fact = 1;
+       function factorial(n)
+       {      
+          if (n > 1)      //if no is greater than 1 then multipl fact =1 * number and call by decrementing
+            {
+                
+                 fact = fact * n;
+                 factorial(n-1);
+            }    
+            return fact;      
+       }
+       function hello()
+       {
+        return 1;
+       }
+       function a()
+       {
+        var x = hello();
+        document.write(x);
+       }
+
+       function x()
+       {
+        var factx = factorial(5);
+        document.write(factx);
+       }
+       function getinfo()
+       {
+        return "hello";
+       }
+       </script>
+
+       <script>
+         document.write(getinfo());
+        </script>
+</body>
+</html>

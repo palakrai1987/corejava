@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <button onclick="myfun1(6)">submit</button>
+     <button onclick="message()">submit1</button>
+     <button onclick="x()">submit2</button>
+     
+
+    <script>
+        function myfun1(x)
+        {
+            var result = x*x;
+            document.write(result);
+        }
+        function message()
+        {
+            alert("hello world");
+        }
+        function sumofno()
+        {
+            var x = 10;
+            var y = 20;
+            var z = x+y;
+            return z;
+        }
+        function x()
+        {
+            var p = sumofno();
+      document.write(p);
+        }
+</script>
+
+</body>
+</html>
