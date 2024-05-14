@@ -1,0 +1,52 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>BooksStore</servlet-name>
+  	<display-name>BooksStore</display-name>
+  	<description></description>
+  	<servlet-class>com.Books.BooksStore</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>bookstore</servlet-name>
+  	<display-name>bookstore</display-name>
+  	<description></description>
+  	<servlet-class>com.Books.bookstore</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EditUrl</servlet-name>
+  	<display-name>EditUrl</display-name>
+  	<description></description>
+  	<servlet-class>com.Books.EditUrl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BookEditScreen</servlet-name>
+  	<display-name>BookEditScreen</display-name>
+  	<description></description>
+  	<servlet-class>com.Books.BookEditScreen</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<display-name>DeleteServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.Books.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>xyz</servlet-name>
+  	<display-name>xyz</display-name>
+  	<description></description>
+  	<servlet-class>com.abc.xyz</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>xyz</servlet-name>
+  	<url-pattern>/xyz</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>  
+   <welcome-file>Register.jsp</welcome-file>  
+  </welcome-file-list>  
+  
+  </web-app>
+
